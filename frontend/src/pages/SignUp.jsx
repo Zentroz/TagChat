@@ -16,7 +16,7 @@ const SignUp = () => {
     console.log(data)
   };
   return (
-    <div className='w-screen h-screen py-2 flex flex-col gap-4 justify-center items-center overflow-x-hidden'>
+    <div className='w-screen h-screen py-3 flex flex-col gap-4 items-center overflow-x-hidden'>
       <div className='fromcontainer flex flex-col gap-2 items-center border-[1px] w-96 p-8'>
         <div className='flex flex-col gap-5 items-center justify-center'>
           <h1 className='text-5xl font-[cursive] font-bold'><span className='text-orange-400 font-[cursive] font-bold'>Tag</span>Chat</h1>

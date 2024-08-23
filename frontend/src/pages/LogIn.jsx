@@ -38,7 +38,7 @@ const LogIn = () => {
           </form>
           <div className='flex flex-col items-center gap-3'>
             <a className='flex justify-center' href='https://www.google.com'><img className='w-6' src="/src/img/google.png" alt="google-logo" /> <p className='text-orange-500 font-semibold'> Log in with Google </p></a>
-            <Link to="/forgot-password"><p className='text-gray-300 text-sm font-thin'>Forgot Password?</p></Link>
+            <Link to="/account/forgot-password"><p className='text-gray-300 text-sm font-thin'>Forgot Password?</p></Link>
           </div>
         </div>
         <div className='signup border-[1px] w-96 h-20 flex items-center justify-center gap-2 text-sm'>
