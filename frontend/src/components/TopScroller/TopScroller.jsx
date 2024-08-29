@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Story from './Story'
+import Story from '../Story'
 
-const StoryScroller = ({ array }) => {
+const TopScroller = ({ array }) => {
   //Scroll elements
   const scrollCont = useRef(null)
   const scroll = useRef(null)
@@ -17,6 +17,7 @@ const StoryScroller = ({ array }) => {
   useEffect(() => {
     // Get max scroll by subtracting scroll-container and scroll div
     maxScroll = -(scroll.current.offsetWidth - scrollCont.current.offsetWidth);
+    //console.log(maxScroll)
   }, [])
 
   // Function for left button
@@ -55,4 +56,4 @@ const StoryScroller = ({ array }) => {
   )
 }
 
-export default StoryScroller
+export default TopScroller

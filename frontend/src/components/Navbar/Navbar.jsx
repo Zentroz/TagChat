@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <div className='navlinks flex justify-center items-center'>
         <ul className='flex flex-col gap-5'>
-          <NavLink to={"/"}><Navigation content={"Home"} elementL={<img className='w-5 h-5' src="/src/img/home.png" alt="home" />} /></NavLink>
+          <NavLink to={"/index"}><Navigation content={"Home"} elementL={<img className='w-5 h-5' src="/src/img/home.png" alt="home" />} /></NavLink>
           <NavLink to={"/search"}><Navigation content={"Search"} elementL={<img className='w-5 h-5' src="/src/img/search.png" alt="home" />} /></NavLink>
           <NavLink to={"/inbox"}><Navigation content={"Messages"} elementL={<img className='w-5 h-5' src="/src/img/chat.png" alt="home" />} /></NavLink>
         </ul>

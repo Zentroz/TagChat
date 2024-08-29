@@ -4,6 +4,8 @@ import LogIn from './pages/LogIn'
 import SignUp from './pages/SignUp'
 import Index from './pages/Index'
 import Layout from './pages/Layout'
+import Message from './pages/Message'
+import Search from './pages/Search'
 
 function App() {
 
@@ -27,6 +29,14 @@ function App() {
         {
           path: "/index",
           element: <Index />
+        },
+        {
+          path: "/inbox",
+          element: <Message />
+        },
+        {
+          path: "/search",
+          element: <Search />
         }
       ]
     }
